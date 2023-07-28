@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siete y media</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="titulo">Siete y Media</h1>
+<div id="botones">
+    <button id="empezar">Jugar </button>
+    <a href="https://www.ludoteka.com/clasika/siete-y-medio.html"><button id="comoSeJuega">Como Se Juega?</button></a>
+    <button id="Puntuaciones">Puntuaciones</button>
+</div>
+
+<div id="datos">
+    <div id="nombreCampos">  
+        <label for="name" id="mensajeNombre">Nombre de usuario</label>
+        <input type="text" id="nombre" maxlength="20" minlength="3">
+        <h3 id="preguntaNombre"></h3>
+        <button id="confirmarUsuario">Soy Yo</button>
+        <br>
+        <div id="guardarDatos">
+            <h3>Quieres guardar tu nombre de usuario?</h3>
+            <div>
+                <label for="siGuardar">Si guardar</label>
+                <input type="radio" name="guardar" value="si" id="siGuardar" checked>
+            </div>
+            <div>
+                <label for="noGuardar">No guardar</label>
+                <input type="radio" name="guardar" value="no" id="noGuardar">
+            </div>
+        </div>
+    </div> 
+    
+    
+    <div id="dificultadCampos">
+        <label for="">Selecciona la DIFICULTAD</label>
+        <select name="select" id="dificultad">
+        <option value="10">Facil</option>
+        <option value="5" selected>Normal</option>
+        <option value="3">Dificil</option>
+    </select>
+    </div>
+    
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

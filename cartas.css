@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url("fuenteTexto/Nexa-Trial-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url("imagen.jpg");
+    font-family: "Nexa";
+}
+
+#contadorEmpieza {
+    color: white;
+    background-color: rgb(0, 135, 16);
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#titulo {
+    font-family: "Nexa";
+    font-size: 350%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(122, 122, 255);
+    background-color: darkorange;
+}
+
+#jugadores {
+    font-family: "Nexa";
+    display: flex;
+    justify-content: space-between;
+}
+
+#playerJugador {
+    font-family: "Nexa";
+    background-color: orange;
+    width: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+#playerBanca {
+    font-family: "Nexa";
+    background-color: orange;
+    width: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+#puntosJugador {
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(221, 255, 0);
+}
+
+#puntosBanca {
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(221, 255, 0);
+}
+
+#jugar {
+    color: white;
+    width: 120px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: "Nexa";
+    padding: 10px;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+
+#plantar {
+    color: white;
+    width: 120px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: "Nexa";
+    padding: 10px;
+    background-color: brown;
+}
+
+#cartasSacadas {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+}
+
+#mensajeFinal {
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    width: 300px;
+    height: fit-content;
+    color: white;
+    background-color: red;
+}
+
+#banca h2 {
+    text-align: right;
+}
+
+#cartasSacadasBanca {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+}
+
+#quedanSegundos {
+    color: red;
+    background-color: white;
+}
+
+#tusCartas {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+#volverAjugar{
+    font-family: "Nexa";
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(139, 199, 255);
+}
+#volverAtras{
+    font-family: "Nexa";
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(139, 199, 255);
+}
+@media only screen and (max-width: 1000px) {
+    #jugadores{
+        display: flex;
+        flex-direction: column;
+   }
+}

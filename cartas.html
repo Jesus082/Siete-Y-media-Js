@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siete y media</title>
+    <link rel="stylesheet" href="cartas.css">
+</head>
+<body>
+    <h1 id="titulo">Siete y Media</h1>
+    <p id="contadorEmpieza">El juego empieza en... </p>
+
+    <div id="jugadores">
+        
+        <div id="jugador1">
+            <h2 id="playerJugador"></h2>
+            <button id="jugar">Cojer carta</button>
+            <button id="plantar">Plantarse</button>
+            <span id="puntosJugador">tus puntos:</span>
+            <p id="tusCartas">Tus Cartas <span id="quedanSegundos"></span></p>
+
+                <div id="cartasSacadas">
+                </div>
+
+        </div>
+        <p id="mensajeFinal">PIERDES <br>Te has pasado de puntos</p>
+        <div id="banca">
+            <h2 id="playerBanca">La Banca</h2>
+            <p id="puntosBanca">Puntos de la banca:</p>
+            <p id="bancaEspera">Esperando...</p>
+
+            <p style="font-weight:bold; background-color: aquamarine; padding: 0; margin: 0;">Cartas De La Banca</p>
+            <div id="cartasSacadasBanca">
+                
+            </div>
+        </div>
+    </div>
+    <footer> <button id="volverAjugar">volver a jugar</button>
+             <button id="volverAtras">volver atras</button></footer>
+    <script src="cartas.js"></script>
+</body>
+</html>
